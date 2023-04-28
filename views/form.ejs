@@ -1,0 +1,42 @@
+<%- include('partials/header') -%> 
+ <div class="container formss">
+    <form action="/entry" method="post">
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Name" name="Name">
+            <label for="floatingInput">Name of Stall</label>
+        </div>
+        <div class="form-floating mb-3">
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="service">
+                <option selected>Service</option>
+                <option value="⭐">⭐</option>
+                <option value="⭐⭐">⭐⭐</option>
+                <option value="⭐⭐⭐">⭐⭐⭐</option>
+                <option value="⭐⭐⭐⭐">⭐⭐⭐⭐</option>
+                <option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐</option>
+            </select>
+        </div>
+        <div class="form-floating mb-3">
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="Comfort">
+                <option selected>Comfort</option>
+                <option value="⭐">⭐</option>
+                <option value="⭐⭐">⭐⭐</option>
+                <option value="⭐⭐⭐">⭐⭐⭐</option>
+                <option value="⭐⭐⭐⭐">⭐⭐⭐⭐</option>
+                <option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐</option>
+            </select>
+    
+        </div>
+        <div class="form-floating mb-3">
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="Quality">
+                <option selected>Quality</option>
+                <option value="⭐">⭐</option>
+                <option value="⭐⭐">⭐⭐</option>
+                <option value="⭐⭐⭐">⭐⭐⭐</option>
+                <option value="⭐⭐⭐⭐">⭐⭐⭐⭐</option>
+                <option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐</option>
+            </select>
+        </div>
+        <input type="submit" class="btn btn-secondary">  
+    </form>
+ </div>
+<%- include('partials/footer') -%> 
